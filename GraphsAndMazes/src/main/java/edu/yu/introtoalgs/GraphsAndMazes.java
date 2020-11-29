@@ -27,23 +27,30 @@ public class GraphsAndMazes {
   } // Coordinate class
 
   /** Given a maze (specified by a 2D integer array, and start and end
-   * Coordinate instance whose values must be 0), return a path that legally
-   * traverses the maze from the start to end coordinates.  If no such path
-   * exists, returns an empty list.
+   * Coordinate instances), return a path (beginning with the start
+   * coordinate, and terminating wih the end coordinate), that legally
+   * traverses the maze from the start to end coordinates.  If no such
+   * path exists, returns an empty list.  The path need need not be a
+   * "shortest path".
    *
-   * @param maze 2D int array whose "0" entries are interpreted as "coordinates
-   * that can be navigated to in a maze traversal (can be part of a maze path)"
-   * and "1" entries are interpreted as "coordinates that cannot be navigated
-   * to (part of a maze wall)".
-   * @param start maze navigation must begin here, must have a value of "0"
-   * @param end maze navigation must terminate here, must have a value of "0"
-   * @return a path, beginning with the start coordinate, terminating with the
-   * end coordinate, and intervening elements represent a legal navigation from
-   * maze start to maze end.  If no such path exists, returns an empty list.  A
-   * legal navigation may only traverse maze coordinates, may not contain
-   * coordinates whose value is "1", may only traverse from a coordinate to one
-   * of its immediate neighbors using one of the standard four compass
-   * directions (no diagonal movement allowed)
+   * @param maze 2D int array whose "0" entries are interpreted as
+   * "coordinates that can be navigated to in a maze traversal (can be
+   * part of a maze path)" and "1" entries are interpreted as
+   * "coordinates that cannot be navigated to (part of a maze wall)".
+   * @param start maze navigation must begin here, must have a value
+   * of "0"
+   * @param end maze navigation must terminate here, must have a value
+   * of "0"
+   * @return a path, beginning with the start coordinate, terminating
+   * with the end coordinate, and intervening elements represent a
+   * legal navigation from maze start to maze end.  If no such path
+   * exists, returns an empty list.  A legal navigation may only
+   * traverse maze coordinates, may not contain coordinates whose
+   * value is "1", may only traverse from a coordinate to one of its
+   * immediate neighbors using one of the standard four compass
+   * directions (no diagonal movement allowed), It is legal for a path
+   * to contain only the start coordinate, if the start coordinate is
+   * equal to the end coordinate.
    */
   public static
     List<Coordinate> searchMaze
