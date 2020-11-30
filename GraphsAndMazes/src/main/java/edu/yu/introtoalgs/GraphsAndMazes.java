@@ -48,9 +48,10 @@ public class GraphsAndMazes {
    * traverse maze coordinates, may not contain coordinates whose
    * value is "1", may only traverse from a coordinate to one of its
    * immediate neighbors using one of the standard four compass
-   * directions (no diagonal movement allowed), It is legal for a path
-   * to contain only the start coordinate, if the start coordinate is
-   * equal to the end coordinate.
+   * directions (no diagonal movement allowed).  A legal path may not
+   * contain a cycle.  It is legal for a path to contain only the
+   * start coordinate, if the start coordinate is equal to the end
+   * coordinate.
    */
   public static
     List<Coordinate> searchMaze
