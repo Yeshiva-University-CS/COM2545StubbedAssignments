@@ -47,6 +47,7 @@ public class IntersectRectangles {
    * @param a rectangle representing the intersection of the input parameters
    * if they intersect, NO_INTERSECTION otherwise.  See the requirements doc
    * for precise definition of "rectangle intersection"
+   * @throws IllegalArgumentException if either parameter is null.
    */
   public static Rectangle intersect (final Rectangle r1, final Rectangle r2)
   {
