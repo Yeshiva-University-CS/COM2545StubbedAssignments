@@ -11,6 +11,14 @@ import java.util.NoSuchElementException;
 
 public class MaxQueue {
 
+  /** No-argument constructor: students may not add any other constructor for
+   * this class
+   */
+  public MaxQueue() {
+    // students may insert whatever code they please, but the code may not
+    // throw an exception
+  }
+
   /** Insert the element with FIFO semantics
    *
    * @param x the element to be inserted.
