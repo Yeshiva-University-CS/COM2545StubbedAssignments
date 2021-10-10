@@ -1,8 +1,8 @@
 package edu.yu.introtoalgs;
 
 /** Enhances the Queue enqueue() and dequeue() API with a O(1) max()
- * method and O(1) size().  The dequeue() method is O(1), the enqueue
- * is amortized O(1).  The implementation is O(n) in space.
+ * method and O(1) size().  The dequeue() method is amortized O(1),
+ * enqueue() is amortized O(1).  The implementation is O(n) in space.
  *
  * @author Avraham Leff
  */
