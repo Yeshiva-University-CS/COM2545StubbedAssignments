@@ -35,8 +35,9 @@ public class BTKeysAtSameLevel {
    * (recursively) the same structure. If a given node only has one child, that
    * child will be the left child node of the parent.
    * 
-   * Note: the "empty" tree is represented by the empty string, and this method
-   * should therefore return an empty List.
+   * Note: the "empty" tree is represented by the empty string, and
+   * this method should therefore return an empty List.  The same
+   * semantics apply to a "blank" string.
    *
    * @param treeInStringRepresentation a binary tree represented in the
    * notation defined above.
