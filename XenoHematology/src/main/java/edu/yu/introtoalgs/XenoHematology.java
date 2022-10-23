@@ -21,10 +21,13 @@ public class XenoHematology {
     // fill me in!
   } // constructor
 
-  /** Specifies that xeno1 and xeno2 are incompatible.  Once specified as
-   * incompatible, the pair can never be specified as being "compatible".  In
-   * that case, don't throw an exception, simply treat the method invocation as
-   * a "no-op".
+  /** Specifies that xeno1 and xeno2 are incompatible.  Once specified
+   * as incompatible, the pair can never be specified as being
+   * "compatible".  In that case, don't throw an exception, simply
+   * treat the method invocation as a "no-op".  A xeno is always
+   * compatible with itself, is never incompatible with itself:
+   * directives to the contrary should be treated as "no-op"
+   * operations.
    *
    * Both parameters must correspond to a member of the population.
    *
@@ -39,10 +42,13 @@ public class XenoHematology {
     // fill me in!
   }
 
-  /** Specifies that xeno1 and xeno2 are compatible.  Once specified as
-   * compatible, the pair can never be specified as being "incompatible".  In
-   * that case, don't throw an exception, simply treat the method invocation as
-   * a "no-op".
+  /** Specifies that xeno1 and xeno2 are compatible.  Once specified
+   * as compatible, the pair can never be specified as being
+   * "incompatible".  In that case, don't throw an exception, simply
+   * treat the method invocation as a "no-op".  A xeno is always
+   * compatible with itself, is never incompatible with itself:
+   * directives to the contrary should be treated as "no-op"
+   * operations.
    *
    * Both parameters must correspond to a member of the population.
    *
