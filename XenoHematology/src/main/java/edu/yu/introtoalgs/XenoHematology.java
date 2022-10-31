@@ -35,8 +35,8 @@ public class XenoHematology {
    * xeno population, differs from xeno2
    * @param xeno2 non-negative integer that uniquely specifies a member of the
    * xeno population.
-   * @throws IllegalArgumentException if the supplied values are incompatible
-   * with the above semantics or those specified by the requirements doc.
+   * @throws IllegalArgumentException if the supplied values are
+   * incompatible with the @param Javadoc.
    */
   public void setIncompatible(int xeno1, int xeno2) {
     // fill me in!
@@ -56,8 +56,8 @@ public class XenoHematology {
    * xeno population.
    * @param xeno2 non-negative integer that uniquely specifies a member of the
    * xeno population
-   * @throws IllegalArgumentException if the supplied values are incompatible
-   * with the above semantics or those specified by the requirements doc.
+   * @throws IllegalArgumentException if the supplied values are
+   * incompatible with the @param Javadoc.
    */
   public void setCompatible(int xeno1, int xeno2) {
     // fill me in!
@@ -72,8 +72,8 @@ public class XenoHematology {
    * @param xeno2 non-negative integer that uniquely specifies a member of the
    * xeno population
    * @return true iff compatible, false otherwise
-   * @throws IllegalArgumentException if the supplied values are incompatible
-   * with the above semantics or those specified by the requirements doc.
+   * @throws IllegalArgumentException if the supplied values are
+   * incompatible with the @param Javadoc
    */
   public boolean areCompatible(int xeno1, int xeno2) {
     return false;               // replace to taste!
@@ -88,8 +88,8 @@ public class XenoHematology {
    * @param xeno2 non-negative integer that uniquely specifies a member of the
    * xeno population
    * @return true iff compatible, false otherwise
-   * @throws IllegalArgumentException if the supplied values are incompatible
-   * with the above semantics or those specified by the requirements doc.
+   * @throws IllegalArgumentException if the supplied values are
+   * incompatible with the @param Javadoc.
    */
   public boolean areIncompatible(int xeno1, int xeno2) {
     return false;               // replace to taste!
