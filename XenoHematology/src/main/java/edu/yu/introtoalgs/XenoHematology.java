@@ -87,7 +87,7 @@ public class XenoHematology {
    * xeno population, differs from xeno2
    * @param xeno2 non-negative integer that uniquely specifies a member of the
    * xeno population
-   * @return true iff compatible, false otherwise
+   * @return true iff incompatible, false otherwise
    * @throws IllegalArgumentException if the supplied values are
    * incompatible with the @param Javadoc.
    */
