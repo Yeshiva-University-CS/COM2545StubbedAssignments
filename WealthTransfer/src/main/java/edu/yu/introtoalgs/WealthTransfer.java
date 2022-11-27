@@ -31,7 +31,7 @@ public class WealthTransfer {
    * to a valid population id, and can't be identical to "from"
    * @param percentage the percentage of "from"'s wealth that will be
    * transferred to "to": must be an integer between 1..100
-   * @param isWealthMultipler if true, the wealth received is the square of the
+   * @param isWealthSquared if true, the wealth received is the square of the
    * money transferred
    * @throws IllegalArgumentException if the parameter Javadoc specifications
    * aren't satisfied or if this "from" has previously specified a wealth
