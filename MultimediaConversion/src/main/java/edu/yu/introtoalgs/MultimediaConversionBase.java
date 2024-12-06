@@ -47,8 +47,9 @@ public abstract class MultimediaConversionBase {
    * The source format cannot be one of the specified output formats, nor can
    * the outputFormats contain duplicate formats.
    * @return a mapping of each of the specified output formats to the minimal
-   * duration required to convert the source format to the output format.  If
-   * the source format cannot be converted to an output format, associate the
+   * duration required to convert the source format to the output format.  (See
+   * the definition of "minimal duration" in the requirements document.) If the
+   * source format cannot be converted to an output format, associate the
    * output format with Double.NaN.
    *
    * NOTE: the conversion process can be done through one or more intemediary
